@@ -1,0 +1,217 @@
+ /*============= header part start=================*/
+ *{
+    margin:0;
+    padding:0;
+}
+body{
+     background-color: #e5e4e4;
+}
+.container{
+    max-width: 1410px;
+}
+.main-head{
+    display:flex;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    height:200px;
+    width:200px;
+}
+.name h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#2d3194;
+}
+.name h3 {
+    text-align: center;
+    color:#2d3194;
+}
+/*================= header part end========================*/
+
+/*================= nagigation start======================*/
+.nvgtn {
+    margin-top: 14px;
+}
+.nav-ul li{
+    padding:0 5px 0 5px;
+}
+.navbar {
+    background: #2d3194c7;
+    border-radius: 5px;
+}
+.nav-ul li a {
+    color:white;
+    font-size:17px;
+    font-weight: 500;
+}
+a#navbarDropdown {
+    color: white;
+}
+.nav-ul li a:hover {
+    color: rgb(241, 42, 42);
+}
+
+.dropdown-div{
+    background: #2d3194c7;
+}
+div#navbarSupportedContent {
+    justify-content: center;
+}
+i.fas.fa-bars.navbar-toggler-icon {
+    font-size: 30px;
+    padding: 7px;
+}
+.navbar-toggler i{
+    color:white;
+}
+.navbar-toggler {
+    margin-right:15px;
+}
+/*=========================navigation end=======================*/
+
+/*=========================login-form start=======================*/
+.main-lgn {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+}
+.cntnt {
+    background-image: url("../photo/campus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    position: absolute;
+}
+.cntnt-clr{
+    width:100%;
+    height:70vh;
+    background: linear-gradient(rgb(0 0 0 / 30%),rgb(0 0 0 / 26%));
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .form-login{
+    padding:15px;
+    width:100%;
+    max-width:500px;
+    margin:auto;
+    height: 350px;
+}
+.form-login h2{
+    font-weight: 700;
+    font-size: 35px;
+}
+.log-form-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:550px;
+    background-color: rgba(199, 199, 194, 0.5);
+    border-radius: 10px;
+}
+.log-form-bg input {
+    padding: 15px;
+    font-size: 20px;
+}
+.chkbx {
+    font-size: 20px;
+}
+.chkbx button{
+    padding: 8px;
+    font-size: 19px;
+}
+.chkbx a {
+    font-size: 19px;
+    text-decoration: none;
+    color: cyan;
+    margin-left: 7px;
+}
+.chkbx a:hover{
+    text-decoration: underline;
+}
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+.chkbx span{
+    font-size: 19px;
+}
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+/*=========================login-form-end=======================*/
+
+/*================footer  sec start================*/
+.foot{
+    background: gray;
+    margin-top: 10px;
+    height: 60px;
+}
+.ftr span {
+    font-size: 20px;
+    margin-left: 20px;
+    color:white;
+}
+.ftr{
+    font-size: 20px;
+}
+.last-frt a:hover{
+    text-decoration: underline;
+}
+.last-frt a{
+    color: tomato;
+}
+.last-frt span {
+    color: white;
+}
+
+.ftr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*================footer  sec end================*/
+
+/*=========================Responsive start=====================*/
+@media (max-width: 992px){
+    .name h1{
+        font-size: 30px;
+    }
+    .name h3{
+        font-size: 19px;
+    }
+    .ftr{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 576px){
+    .chkbx label{
+        display: none;
+    }
+    .frgt-pass{
+        display: flex;
+        justify-content: center;
+    }
+    .foot{
+        height: 90px;
+    }
+}
+/*========================Responsive end=========================*/
+

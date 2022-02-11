@@ -1,0 +1,615 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width: 1410px;
+}
+body{
+    background-color: #e5e4e4;
+}
+a{
+    text-decoration: none;
+}
+
+/*================Header css start================*/
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+.sub-header1{
+    width:20%;
+    height: auto;
+}
+.sub-header2{
+    width:57%;
+    height: auto;
+    color: #2D3194;
+}
+.sub-header3 {
+    width: 22%;
+    height: 100%;
+    line-height: 1.5;
+}
+.logo{
+    width:200px;
+    height:200px;
+    margin-left:10px;
+}
+.s-name {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+    line-height: 1.4;
+}
+.sub-header2 h3,h4{
+    text-align: center;
+}
+.sub-header3 span {
+    font-size: 21px;
+    font-weight: bold;
+    word-spacing: 0.5px;
+    color: #ED1B24;
+}
+.sub-header-span {
+    padding: 0;
+    width: 84%;
+    margin: auto;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.lgn {
+    padding: 13px 11px;
+    font-size: 22px;
+    border: 1px solid cyan;
+    margin-top: 9px;
+    font-weight: bold;
+    margin-left: 22px;
+    color:#0A58CA;
+    box-sizing: border-box;
+}
+i.fas.fa-sign-in-alt {
+    margin-left: 14px;
+    font-size: 25px;
+    color: #0A58CA;
+}
+.nvgtn {
+    margin-top: -8px;
+}
+.nav-ul li{
+    padding:0 5px 0 5px;
+}
+.navbar {
+    background: #2d3194c7;
+    border-radius: 5px;
+}
+.nav-ul li a {
+    color:white;
+    font-size:17px;
+    font-weight: 500;
+}
+a#navbarDropdown {
+    color: white;
+}
+.nav-ul li a:hover {
+    color: rgb(241, 42, 42);
+}
+
+.dropdown-div{
+    background: #2d3194c7;
+}
+div#navbarSupportedContent {
+    justify-content: center;
+}
+i.fas.fa-bars.navbar-toggler-icon {
+    font-size: 30px;
+    padding: 7px;
+}
+.navbar-toggler i{
+    color:white;
+}
+.navbar-toggler {
+    margin-right:15px;
+}
+.main-runtext {
+    background-color: #EEEEEE;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto;
+}
+.sub-runtext1 span {
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    letter-spacing: 1px;
+    color: tomato;
+}
+.running{
+    font-size:20px;
+    font-weight: 400;
+}
+.scl-code{
+    display: none;
+}
+/*================Header css End================*/
+
+
+
+/*================galllary start================*/
+.gall-not{
+    margin-top: 30px;
+}
+.photo{
+    width:100%;
+    height:530px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+#gallary{
+    width:100%;
+    height: 100%;
+    border-radius: 5px;
+    animation: zoom 3s linear infinite;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(1.3);
+    }
+    15%{
+        transform: scale(1);
+    }
+    85%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+   
+}
+.photo-bg{
+    width:100%;
+    height:530px;
+    background: linear-gradient(rgb(0 0 0 / 24%),rgb(0 0 0 / 15%));
+    position: absolute;
+    top: 0;
+}
+/*================gallary end================*/
+
+/*================notice start================*/
+.notice h3{
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 25px;
+    background: #8768DE;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nts-body{
+    height:530px;
+    width:100%;
+    border: 2px solid rgb(0 0 0 / 22%);
+}
+.nts-body a {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: black;
+    margin-top: 26px;
+    margin-left: 10px;
+}
+.nts-body a:hover {
+    color: #5b23f5;
+}
+.icon-arrow-right-to-bracket{
+    font-weight: 700;
+    color: red;
+}
+.more-not {
+    float: right;
+    color: tomato !important;
+    font-size: 19px !important;
+    margin-right: 20px;
+}
+.more-not:hover {
+   text-decoration: underline;
+}
+/*================notice end================*/
+
+/*================speech section start================*/
+.title-for {
+    font-size: 35px;
+    text-shadow: 3px 1px 6px #000000c9;
+    margin: 15px 0px 5px 10px;
+    text-align:center;
+    -webkit-text-stroke:1px black;
+    font-weight:500;
+    display: inline;
+}
+
+#main-speech-sec {
+    margin-top: 30px;
+}
+.inner-speech img{
+    width:247px;
+    height:280px;
+}
+#sova{
+    height:688px;
+    overflow: scroll;
+}
+.spch-text p{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.spch-text{
+    text-align: justify;
+}
+.spc-img{
+    float: left;
+    margin: 5px 12px 5px 1px;
+}
+.blockquote{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.persons {
+    display: flex;
+    justify-content: center;
+}
+.persons li a{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.speech-list{
+    border-top: 1px solid #00000030;
+}
+.more-spch{
+    display:none;
+}
+/*================speech section end================*/
+
+/*================Important link start================*/
+.imp-link{
+    position: relative;
+}
+.imp-link h3 {
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 25px;
+    background: #2FD32E;
+    color: #fff;
+    text-transform: uppercase;
+}
+.imp-link ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 1px 0;
+    outline: none;
+    border: 1px solid #0000002e;
+    border-radius: 5px;
+}
+.imp-link ul li a{
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #583aab;
+}
+.imp-link ul li a:hover {
+    background-color: #8768DE;
+    box-shadow: none;
+    color:white;
+}
+
+.imp-link {
+    margin-top: 18px;
+}
+.hid-li,.link-more{
+    display: none;
+}
+.link-more{
+    color: #583aab;
+    border: 1px solid #00000044;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/*================Important link end================*/
+/*================Location sec start================*/
+
+.title-forloc {
+    font-size: 35px;
+    text-shadow: 3px 1px 6px #000000c9;
+    margin: 15px 0px 5px 10px;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    font-weight: 500;
+    display: block;
+}
+
+/*================Location sec end================*/
+
+/*================Contact sec start================*/
+.con{
+    color:#fff;
+}
+#contact {
+    margin-top: 40px;
+    position: relative;
+}
+.cntk-sec {
+    background-color: #0093E9;
+    background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%);
+    
+}
+.cntk-sec:hover {
+    background-color: #0093E9;
+    background-image: linear-gradient(180deg, #0093E9 0%, #80D0C7 100%);
+
+    
+}
+.servcontainer h2 {
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 15px;
+}
+.servcontainer p {
+    margin-bottom: -45px;
+    margin-top: 5px;
+}
+.msg-box{
+    margin-top: 4rem;
+    width:70%;
+    margin-left:15%;
+    overflow: hidden;
+}
+.msg-box input[type="text"],.msg-box input[type="email"],.msg-box textarea{
+    width:100%;
+    background: #5B5EAB;
+    border: 1px solid #dfe1e5;
+    padding: 1rem;
+    border-radius:0.5rem;
+    font-size: 1.2rem;
+    color:#fff;
+    margin: 0.5rem 0;
+    
+}
+input::placeholder,textarea::placeholder{
+    color:#fff;
+    opacity: 1;
+}
+input[type="submit"] {
+    width: 12rem;
+    height: 4rem;
+    background-color: #5B5EAB;
+    border: 0;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 0.7rem;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+input[type="submit"]:hover {
+    background: #7BCDC8;
+    color: #5B5EAB;
+    border: 3px solid #5B5EAB;
+    font-weight: bold;
+}
+textarea{
+    resize: none;
+}
+/*================Contact sec end================*/
+/*================Contact icon sec start================*/
+.cntk-icon i {
+    font-size: 22px;
+    margin: 0px 10px;
+    padding: 8px;
+    border-radius: 50%;
+    float: right;
+    background:#5B5EAB;
+    border: 3px solid #5B5EAB;
+    color: cyan;
+    text-align: center;
+    
+}
+
+.cntk-icon {
+    margin-top: 20px;
+}
+i.fa-brands.fa-facebook-f {
+    width: 43px;
+    text-align: center;
+}
+/*================Contact icon sec end================*/
+/*================footer  sec start================*/
+.foot{
+    background: gray;
+    margin-top: 10px;
+    height: 60px;
+}
+.ftr span {
+    font-size: 20px;
+    margin-left: 20px;
+    color:white;
+}
+.ftr{
+    font-size: 20px;
+}
+.last-frt a:hover{
+    text-decoration: underline;
+}
+.last-frt a{
+    color: tomato;
+}
+.last-frt span {
+    color: white;
+}
+
+.ftr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*================footer  sec end================*/
+
+/*================Responsive design start================*/
+@media (max-width: 992px){
+    .sub-header1 a img {
+        width: 90px;
+        height: 70px;
+        margin-top: 20px;
+    }
+    .sub-header3 {
+        display: none;
+    }
+    .sub-header2{
+        width:70%;
+    }
+    .s-name {
+        font-size: 22px;
+        margin-left: -14px;
+        line-height: 31px;
+    }
+    .sub-header2 h3 {
+        font-size: 18px;
+        line-height: 1px;
+    }
+    .sub-header2 h4{
+        display:none;
+    }
+    .running{
+        margin:10px 0px 10px 20px;
+    }
+    .title-for{
+        text-align: center;
+        display: block;
+    }    
+    .scl-code {
+        font-size: 18px;
+        margin-top: 20px;
+        font-weight: 500;
+        display: flex;
+    justify-content: center;
+    }
+    .scl-code span {
+        padding: 0 12px;
+        text-transform: uppercase;
+    }
+    .more-spch{
+        display:flex;
+    }
+    .hid-txt{
+        display: none;
+    }
+    .show-link{
+        display: none;
+    }
+    .hid-li,.link-more{
+        display: block;
+    }
+    .msg-box input[type="text"],.msg-box input[type="email"],.msg-box textarea{
+        margin: 0.2rem 0;
+        
+    }
+    input[type="submit"] {
+        margin-top: 0.2rem;
+    }
+    .cntk-icon{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+        padding-bottom: 15px;
+        margin-top: 0;
+    }
+    .ftr{
+        font-size: 17px;
+    }
+
+}
+@media (max-width: 576px){
+    .running{
+        margin:10px 0px 10px 30px;
+    }
+    .speech-list ul li {
+        display: block;
+    }
+    .inner-speech {
+        width:100%
+    }
+    .inner-speech img{
+        display: block;
+        width:100%;
+        height:auto;
+    }
+    .scl-code span {
+        padding: 0 5px;
+    }
+    .title-forloc{
+        margin-top: 0;
+    }
+    .msg-box input[type="text"],.msg-box input[type="email"],.msg-box textarea{
+        margin: 0.1rem 0;
+    }
+    input[type="submit"] {
+        width: 100%;
+
+    }
+    .foot{
+        height: 90px;
+    }
+}
+/*================Responsive design end================*/
+
+/*============== svg start=================*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../svg/arrow/icomoon.eot?whkeo');
+    src:  url('../svg/arrow/icomoon.eot?whkeo#iefix') format('embedded-opentype'),
+      url('../svg/arrow/icomoon.ttf?whkeo') format('truetype'),
+      url('../svg/arrow/icomoon.woff?whkeo') format('woff'),
+      url('../svg/arrow/icomoon.svg?whkeo#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow-right-to-bracket:before {
+    content: "\e900";
+  }
+
+/*======================= speak: never; svg==============*/  

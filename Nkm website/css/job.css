@@ -1,0 +1,52 @@
+.main-job{
+    width:100%;
+    height: 600px;
+    border: 1px solid rgb(0 0 0 / 22%);
+}
+.main-job {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sub-job {
+    width:80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sub-job img {
+    width: 100%;
+    height: 100%;
+}
+.sub-job a {
+    height: 100%;
+    width: 100%;
+}
+
+.layer-img{
+    width:80%;
+    height:400px;
+    background: linear-gradient(rgb(0 0 0 / 49%),rgb(0 0 0 / 43%));
+    position: absolute;
+    top: 50px;
+    cursor: pointer;
+}
+.job-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: -110px;
+}
+.job-btn button{
+    margin-left: 20px;
+}
+.job-btn a{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+

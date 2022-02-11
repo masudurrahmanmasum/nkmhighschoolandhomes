@@ -1,0 +1,234 @@
+ /* header part start*/
+ *{
+    margin:0;
+    padding:0;
+}
+body{
+     background-color: #e5e4e4;
+}
+.container{
+    max-width: 1410px;
+}
+.main-head{
+    display:flex;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    height:200px;
+    width:200px;
+}
+.name h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#2d3194;
+}
+.name h3 {
+    text-align: center;
+    color:#2d3194;
+}
+/* header part end*/
+/* nagigation start*/
+.nvgtn {
+    margin-top: 14px;
+}
+.nav-ul li{
+    padding:0 5px 0 5px;
+}
+.navbar {
+    background: #2d3194c7;
+    border-radius: 5px;
+}
+.nav-ul li a {
+    color:white;
+    font-size:17px;
+    font-weight: 500;
+}
+a#navbarDropdown {
+    color: white;
+}
+.nav-ul li a:hover {
+    color: rgb(241, 42, 42);
+}
+
+.dropdown-div{
+    background: #2d3194c7;
+}
+div#navbarSupportedContent {
+    justify-content: center;
+}
+i.fas.fa-bars.navbar-toggler-icon {
+    font-size: 30px;
+    padding: 7px;
+}
+.navbar-toggler i{
+    color:white;
+}
+.navbar-toggler {
+    margin-right:15px;
+}
+/*navigation end*/
+
+/*================notice start================*/
+.notice h3{
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 25px;
+    background: #8768DE;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nts-body{
+    height:532px;
+    width:100%;
+    border: 2px solid rgb(0 0 0 / 22%);
+}
+.nts-body a {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: black;
+    margin-top: 26px;
+    margin-left: 10px;
+}
+.nts-body a:hover {
+    color: #5b23f5;
+}
+.icon-arrow-right-to-bracket{
+    font-weight: 700;
+    color: red;
+}
+.more-not {
+    float: right;
+    color: tomato !important;
+    font-size: 19px !important;
+    margin-right: 20px;
+}
+.more-not:hover {
+   text-decoration: underline;
+}
+/*================notice end================*/
+
+/*================routine start================*/
+.title-for {
+    font-size: 35px;
+    text-shadow: 3px 1px 6px #000000c9;
+    margin: 20px 0px 5px 10px;
+    text-align:center;
+    -webkit-text-stroke:1px black;
+    font-weight:500;
+    text-align: center;
+}
+object{
+    margin-top: 5px;
+}
+.rtn-txt{
+    font-size: 20px;
+}
+.rtn-img{
+    margin-top: -6px;
+}
+.second-rnt{
+    margin-top:30px;
+}
+/*================routine end================*/
+
+/*================footer  sec start================*/
+.foot{
+    background: gray;
+    margin-top: 10px;
+    height: 60px;
+}
+.ftr span {
+    font-size: 20px;
+    margin-left: 20px;
+    color:white;
+}
+.ftr{
+    font-size: 20px;
+}
+.last-frt a:hover{
+    text-decoration: underline;
+}
+.last-frt a{
+    color: tomato;
+}
+.last-frt span {
+    color: white;
+}
+
+.ftr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*================footer  sec end================*/
+
+/*Responsive start*/
+@media (max-width: 992px){
+    .name h1{
+        font-size: 30px;
+    }
+    .name h3{
+        font-size: 19px;
+    }
+    .notice{
+        display: none;
+    }
+    .ftr{
+        font-size: 17px;
+    }
+
+
+}
+@media (max-width: 576px){
+    .foot{
+        height: 95px;
+    }
+
+}
+/*Responsive end*/
+
+  /*================= svg start=================*/
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../svg/arrow/icomoon.eot?whkeo');
+    src:  url('../svg/arrow/icomoon.eot?whkeo#iefix') format('embedded-opentype'),
+      url('../svg/arrow/icomoon.ttf?whkeo') format('truetype'),
+      url('../svg/arrow/icomoon.woff?whkeo') format('woff'),
+      url('../svg/arrow/icomoon.svg?whkeo#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow-right-to-bracket:before {
+    content: "\e900";
+  }
+
+
+
+
+    /*================= svg end=================*/
